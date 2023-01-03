@@ -1,0 +1,45 @@
+import(methods)
+importFrom(stats,lm, model.matrix, weighted.mean)
+
+export("boat3d",
+	"eulerzxz",
+	"eulerzyx",
+	"nearest.orthog",
+	"nearest.SO3",
+	"orientlm",
+	"quaternion",
+	"rotation.angle",
+	"rotation.distance",
+	"rotmatrix",
+	"rotvector",
+	"skewmatrix",
+	"skewvector")
+	
+exportClasses("orientation",
+	"rotmatrix",
+	"rotvector",
+	"eulerzyx",
+	"eulerzxz",
+	"quaternion",
+	"skewmatrix",
+	"skewvector")
+	
+exportMethods("%*%",
+	"^",
+	"t",
+	"mean",
+	"weighted.mean",
+	"[",
+	"[<-",
+	"[[",
+	"[[<-",
+	"length",
+	"coerce",
+	"rotmatrix",
+	"rotvector",
+	"eulerzyx",
+	"eulerzxz",
+	"quaternion",
+	"skewmatrix",
+	"skewvector")
+	

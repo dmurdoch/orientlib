@@ -1,0 +1,82 @@
+Release history for orientlib:
+
+Changes in Version 0.10.5
+
+        - Changes for rgl 1.0.0 compatibility.
+
+Changes in Version 0.10.4
+
+        - Changes for R 4.0.0 compatibility.
+        - Changed maintainer address.
+        
+Changes in Version 0.10.3
+
+        - Changes for R 3.0.0 compatibility.
+
+Changes in version 0.10.2
+
+	- Changed format of NEWS file to be news() compatible.
+	- Fixed help link errors.
+
+Changes in version 0.10.1
+
+	- Changed signature of weighted.mean to match R 2.10.x changes.
+	
+Changes in version 0.9.3
+
+ 	- Back porting of 0.10.2 changes.
+
+Changes in version 0.9.2
+
+	- Cleanup, back porting some 0.10.1 changes for R 2.9.x compatibility.
+
+Changes in version 0.9.1
+
+	- Changed contact email address.
+	
+Changes in version 0.9
+
+	- Dropped support for djmrgl package.
+	
+Changes in version 0.8.2
+
+	- Minor typo in Rd file.
+
+Changes in version 0.8.1
+
+	- Removed calls to rgl library in examples; there seems
+	to be some incompatibility.  Also improved "add=" option
+	to boat3d.
+
+Changes in version 0.8
+
+	- Added namespace. This breaks R 1.8.x compatibility; sorry! 
+
+Changes in version 0.7.1
+
+        - Mods for compatibility with R 1.9
+	
+Changes in version 0.7
+
+	- Modifications to coincide with JSS paper
+
+Changes in version 0.4
+
+	- First release to CRAN
+
+Changes in version 0.2
+
+	- Added mean and weighted.mean.
+ 	- Made orientation descend from vector.
+	- Added [[ methods.
+	- Changed default look of boats.
+	- Made rotmatrix etc. into convfunctions between
+	orientation types.
+	- Added eulerzxz class.
+	- Added various parameters to boat3d.
+	- Added orientlm regression function plus transpose t() method.
+
+Changes in version 0.1
+
+	- First release.
+

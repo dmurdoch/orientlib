@@ -1,0 +1,15 @@
+citHeader("To cite the orientlib package in publications use:")
+
+citEntry(
+ entry="Article",
+ title="Orientlib: An {R} Package for Orientation Data",
+ journal="Journal of Statistical Software",
+ volume= "8",
+ number="19",
+ pages="1-11",
+ year="2003",
+ author="D. Murdoch",
+ textVersion=paste("Murdoch, D. (2003). Orientlib: an R package for orientation",
+ "data. Journal of Statistical Software, 8(19), 1-11.")
+)
+citFooter("A copy of this paper is included in the doc subdirectory.")
