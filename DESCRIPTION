@@ -8,3 +8,5 @@ Maintainer: Duncan Murdoch <murdoch.duncan@gmail.com>
 License: GPL
 Depends: R (>= 2.13.0), methods, stats
 Suggests: rgl, scatterplot3d
+URL: https://github.com/dmurdoch/orientlib
+BugReports: https://github.com/dmurdoch/orientlib/issues
