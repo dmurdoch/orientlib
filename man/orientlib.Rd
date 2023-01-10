@@ -26,51 +26,6 @@
   in a 3D plot, and a linear modelling function \code{\link{orientlm}}.
 }
 
-\section{Release History}{
-\itemize{
-\item{Version 0.9}{
-\itemize{
-\item{-}{Added CITATION file, dropped djmrgl support.}
-}}
-
-\item{Versions 0.3 to 0.8}{
-\itemize{
-
-\item{-}{Changes for CRAN compliance and minor corrections.}
-}}
-
-\item{Version 0.2}{
-\itemize{
-
-\item{-}{Added \code{mean} and \code{weighted.mean}.}
-
-\item{-}{Made \code{orientation} descend from \code{vector}.}
-
-\item{-}{Added \code{[[} methods.}
-
-\item{-}{Changed default look of boats.}
-
-\item{-}{Made \code{rotmatrix} etc. into conversion functions between
-orientation types.}
-
-\item{-}{Added \code{eulerzxz} class.}
-
-\item{-}{Added various parameters to \code{boat3d}.}
-
-\item{-}{Added \code{\link{orientlm}} regression function plus transpose \code{t()} method.}
-
-\item{-}{Added \code{\link[rgl:rgl-package]{rgl}} and \code{\link[scatterplot3d]{scatterplot3d}} support to \code{\link{boat3d}} function.}
-
-\item{-}{Added \code{\link{skewmatrix}}.}
-}}
-
-\item{Version 0.1}{
-\itemize{
-\item{-}{First release.}
-}}
-}
-}
-
 \author{ Duncan Murdoch }
 \note{ Plots require either the \code{\link[rgl:rgl-package]{rgl}}
 or \code{\link[scatterplot3d]{scatterplot3d}} package. }
